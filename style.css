@@ -5,6 +5,20 @@
     font-family: "Merriweather", serif;
 }
 
+
+.b{
+    background-color: #e87121;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.507);
+    padding: 10px;
+    border: none;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.507);
+}
+
+
+
 nav{
     /* background-color: thistle; */
     width: 100%;
@@ -63,13 +77,53 @@ nav #content ul li{
     color: grey;
     font-size: 15px;
 }
-#hero #hero_text button{
-    background-color: #e87121;
+/* ---------------------------------------------------------------------------------------------------------- */
+
+#card{
+    /* background-color: yellowgreen; */
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#card .cb{
+    /* background-color: tomato; */
+    height: 250px;
     width: 200px;
-    color: white;
-    font-size: 20px;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.507);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.349);
+}
+#card .cb .cb_image{
+    /* background-color: turquoise; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card .cb .cb_image img{
+    width: 100%;
+    padding: 5px;
+}
+#card .cb .cb_title{
+    /* background-color:steelblue; */
+    width: 75%;
     padding: 10px;
+    margin: 10px;
+    text-align: center;
+     background-color: #e87121;
+    color: white;
+    font-size: 15px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.507);
     border: none;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.507);
+}
+
+#card .cb:hover{
+    box-shadow: 0px 0px 12px  #e87121a8;
 }
